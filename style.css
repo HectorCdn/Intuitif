@@ -1,9 +1,11 @@
 .home {
     display: flex;
+    justify-content: center;
     margin: 5%;
     height: 80%;
     background-color: rgba(153, 153, 153, 0.205);
     border-radius: 25px;
+    width: 100%;
 }
 
 .img {
@@ -14,8 +16,11 @@
     height: 5%;
     width: 5%;
     background-color: rgba(230, 174, 174, 0.603);
-    border-radius: 24px;
+    border-radius: 34px;
     text-align: center;
 }
 
-a:
+a:hover {
+    background-color: red;
+    color: green;
+}
